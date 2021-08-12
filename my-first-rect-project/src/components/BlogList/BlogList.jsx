@@ -1,6 +1,6 @@
 import React from 'react';
 
-import blogPosts from '../../data/blog-posts.js';
+import { blogPosts } from '../../data/blog-posts.js';
 
 import './BlogList.css';
 
