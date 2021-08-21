@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <header className="header">
-        <p>My React Blog</p>
+        <h1>My React Blog</h1>
     </header>
     );
 };

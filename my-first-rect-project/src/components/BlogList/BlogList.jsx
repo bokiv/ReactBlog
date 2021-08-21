@@ -27,7 +27,7 @@ export class BlogList extends Component {
         return(
         <div className="blogList">
          {this.state.blogs.map((post,index)  => (
-            <div className="blogItem" >
+            <div className="blogItem" key={index} >
                 <h2>{post.title}</h2>
                 <p>{post.body}</p>
             </div>
