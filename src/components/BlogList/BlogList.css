@@ -7,4 +7,8 @@
     color: white;
     padding: 15px;
     margin-bottom: 15px;
+
 } 
+input , button {
+    margin-bottom: 10px;
+}
